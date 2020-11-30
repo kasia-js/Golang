@@ -45,4 +45,3 @@
 	// 	expected := math.Sqrt(2)
 	// 	fmt.Printf("Guess: %v, Expected: %v, Error: %v", guess, expected, math.Abs(guess - expected))
 	// }
-	

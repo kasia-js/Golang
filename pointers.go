@@ -13,24 +13,24 @@
 // 	fmt.Println(x,y)
 // }
 
-//Part 2
-package main
-import "fmt"
+// //Part 2
+// package main
+// import "fmt"
 
-func changeValue(str *string) {
-	*str = "changed" // de-reference
-}
+// func changeValue(str *string) {
+// 	*str = "changed" // de-reference
+// }
 
-func changeValue2(str string) {
-	str = "changed2"
-}
+// func changeValue2(str string) {
+// 	str = "changed2"
+// }
 
-func main() {
-	toChange := "hello"
-	changeValue(&toChange) // pass by memory location
-	fmt.Println(toChange)
+// func main() {
+// 	toChange := "hello"
+// 	changeValue(&toChange) // pass by memory location
+// 	fmt.Println(toChange)
 
-	toChange2 := "hello"
-	changeValue2(toChange2)
-	fmt.Println(toChange2)
-}
+// 	toChange2 := "hello"
+// 	changeValue2(toChange2)
+// 	fmt.Println(toChange2)
+// }
